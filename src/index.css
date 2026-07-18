@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Manrope", sans-serif;
+
+  color: #f5f5f5;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+
+
+.nav-logo {
+  height: 2rem;
+  width: auto;
+}
+
+
+
+.nav-links a {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1.8px;
+  font-size: 14px;
+  transition: 1s;
+}
+.nav-links a:hover {
+  color: #d87d4a;
+  transition: 1s;
+}
+
+
+
+ 
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.8rem;
+  color: #cbb4ff;
+}
+
+.hero-content h1 {
+  margin: 0 0 1rem;
+  font-size: 56px;
+  line-height: 1.05;
+  font-weight: 600;
+}
+
+.hero-content p {
+  margin: 0 0 1.5rem;
+  line-height: 1.7;
+  color: #ffffff80;
+  max-width: 23rem;
+}
+.hover-underline-animation {
+  position: relative;
+  /* color: #f11515; */
+  text-decoration: none;
+}
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #564d69;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
