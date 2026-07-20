@@ -1,6 +1,6 @@
 import logo from "../image/logo.svg";
 import cart from "../image/icon-cart.svg";
-import { NavLink } from "react-router-dom"; // 1. Import NavLink instead of Link
+import { NavLink } from "react-router-dom"; 
 
 const Nav = () => {
   
@@ -16,8 +16,8 @@ const Nav = () => {
         <div className="lg:hidden text-white text-2xl cursor-pointer">
           ☰
         </div>
-
-        <img src={logo} width={100} alt="Audiophile logo" className="nav-logo" />
+<NavLink to="/">
+        <img src={logo} width={100} alt="Audiophile logo" className="nav-logo cursor-pointer h-6 w-auto" /></NavLink>
         
         <div className="nav-links hidden lg:flex gap-8 text-white text-sm font-bold tracking-widest">
        

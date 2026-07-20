@@ -5,6 +5,7 @@ import Bring from "../../components/Bring";
 import Btn from "../../components/Btn";
 import Product from "../../components/Products";
 
+
 const Hero = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const Hero = () => {
               XX99 Mark II <br /> Headphones
             </h1>
             <p className="text-white/75 text-[15px] font-light leading-relaxed mb-8">
-              Experience natural, lifelike audio and exceptional build quality
+              Experience natural, life like audio and exceptional build quality
               made for the passionate music enthusiast.
             </p>
 

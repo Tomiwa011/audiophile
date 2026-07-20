@@ -10,7 +10,7 @@ import Earphones from "./pages/earphones/Earphones";
 const App = () => {
   return (
     <>
-      <div className="app-shell">
+      <div className="app-shell ">
         <BrowserRouter>
           <Navbar />
 

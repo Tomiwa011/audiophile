@@ -20,7 +20,7 @@ const Cards = () => {
               Upgrade to premium speakers that are phenomenally built to deliver
               truly remarkable sound.
             </p>
-            <button className="bg-black hover:bg-[#4C4C4C] text-white uppercase tracking-widest text-[13px] px-8 py-4 font-bold transition-colors">
+            <button className="bg-black hover:bg-[#4C4C4C] cursor-pointer text-white uppercase tracking-widest text-[13px] px-8 py-4 font-bold transition-colors">
               SEE PRODUCT
             </button>
           </div>
@@ -33,7 +33,7 @@ const Cards = () => {
           <h2 className="text-black text-3xl md:text-4xl font-bold uppercase mb-8">
             ZX7 SPEAKER
           </h2>
-          <button className="border border-black hover:bg-black hover:text-white text-black uppercase tracking-widest text-[13px] px-8 py-4 font-bold transition-colors">
+          <button className="border border-black hover:bg-black cursor-pointer hover:text-white text-black uppercase tracking-widest text-[13px] px-8 py-4 font-bold transition-colors">
             SEE PRODUCT
           </button>
         </div>
@@ -50,7 +50,7 @@ const Cards = () => {
             <h2 className="text-black text-3xl font-bold uppercase mb-8">
               YX1 EARPHONES
             </h2>
-            <button className="border border-black hover:bg-black hover:text-white text-black uppercase tracking-widest text-[13px] px-8 py-4 font-bold transition-colors">
+            <button className="border border-black cursor-pointer hover:bg-black hover:text-white text-black uppercase tracking-widest text-[13px] px-8 py-4 font-bold transition-colors">
               SEE PRODUCT
             </button>
           </div>
